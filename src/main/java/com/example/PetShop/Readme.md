@@ -2,8 +2,8 @@ CASOS DE USO
 
 SOFTWARE DE PETSHOP
 Stack: Backend Java com Spring, Frontend Javascript, HTML/CSS
-link projeto github: https://github.com/diogovsmartins/PetShop
-
+link projeto github back-end: https://github.com/diogovsmartins/PetShop
+link projeto github front-end: https://github.com/ndressaa/petshop-front
 1 Stakeholder -Funcionario
 
 	REQUISITOS:
