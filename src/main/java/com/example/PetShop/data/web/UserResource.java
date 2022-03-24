@@ -18,11 +18,13 @@ public class UserResource {
     @Autowired
     UserRepository userRepository;
 
+    @CrossOrigin(origins = "http://127.0.0.1:5500/")
     @PostMapping(value = "/cadastro/{nome}/{telefone}/{endereco}/{cpf}")
     public void cadastrarUsuario(@PathVariable String nome, @PathVariable String telefone, @PathVariable String endereco,@PathVariable String cpf){
         userUseCase.cadastrarUsuario(nome, telefone, endereco, cpf);
     }
 
+    @CrossOrigin(origins = "http://127.0.0.1:5500/")
     @GetMapping(value = "/list")
     @ResponseBody
     public List<UserEntity> listUsers(){
